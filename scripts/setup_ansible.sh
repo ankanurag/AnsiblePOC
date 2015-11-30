@@ -1,6 +1,5 @@
 #!/bin/bash
 {
-set -e
 Install_Ansible() {
 	ansible --version
 	if [ $? -eq 0 ]; then
