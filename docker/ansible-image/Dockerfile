@@ -1,7 +1,7 @@
 FROM centos:6
-MAINTAINER "Sandeep" <sandeep@panthacorp.com>
+MAINTAINER "Sandeep" <sandeep@opstree.com>
 
-#RUN yum -y install openssh-server openssh-clients
+RUN yum -y install openssh-server openssh-clients
 
 ADD .ssh /root/.ssh
 RUN chmod 700 /root/.ssh
