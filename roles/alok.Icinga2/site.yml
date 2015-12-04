@@ -1,0 +1,4 @@
+---
+- hosts: tomcat_hosts
+  roles:
+    - { role: "alok.Icinga2" }
