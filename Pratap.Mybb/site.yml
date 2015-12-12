@@ -1,4 +1,0 @@
----
-- hosts: mybb_hosts
-  roles:
-    - { role: "Pratap.Mybb" }
