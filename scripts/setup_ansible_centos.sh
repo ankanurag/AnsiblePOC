@@ -8,7 +8,7 @@ Install_Ansible() {
 	else
 		
 		wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
-		sudo yum update
+		sudo yum -y update
 		sudo rpm -Uvh epel-release-latest-6.noarch.rpm
 		sudo yum -y install ansible
 	fi
