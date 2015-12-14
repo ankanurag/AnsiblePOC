@@ -1,0 +1,7 @@
+---
+
+- hosts: Web-hosts
+
+  roles:
+   - { role: "opstree.puppetsync" }
+
