@@ -2,16 +2,7 @@
 # tasks file for puppet.sync
 
 - name: Configure hostname ....
-  template: src=hostname dest=/etc/hostname
-
-- name: Configure hostname ....
-  template: src=network dest=/etc/sysconfig/network
-
-- name: Configure hostname ....
   command: hostname {{ hostname }}
-
-- name:  hostname configured....
-  command: /etc/init.d/network restart
 
 - lineinfile: dest=/etc/hosts line="52.24.81.83 foreman.bigparser.com" 
 
