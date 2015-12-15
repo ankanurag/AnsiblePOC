@@ -1,11 +1,7 @@
 ---
 # tasks file for puppet.sync
 
-- name: Configure hostname ....
-  template: src=hostname dest=/etc/hostname
-
-- name: Change hostname ....
-  command: hostname --file /etc/hostname
+- hostname: name={{ hostname }}
 
 - lineinfile: dest=/etc/hosts line={{ Add_line }}
 
