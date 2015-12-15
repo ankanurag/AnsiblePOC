@@ -1,5 +1,5 @@
 ---
-# defaults file for Pratap.Mybb
+# defaults file for opstrr.Mybb
 mybb_version: "1806"
 nginx_root_path: "/var/www/html"
 server_name: "mybb.com"

@@ -1,7 +1,13 @@
 ---
 
 - hosts: Web-hosts
-
+  vars:
+    - hostname: drupal
   roles:
    - { role: "opstree.puppetsync" }
 
+- hosts: Web-hosts2
+  vars:
+    - hostname: drupal23
+  roles:
+   - { role: "opstree.puppetsync" }

@@ -7,7 +7,7 @@
 - name: Change hostname ....
   command: hostname --file /etc/hostname
 
-- lineinfile: dest=/etc/hosts line="52.24.81.83 foreman.bigparser.com" 
+- lineinfile: dest=/etc/hosts line={{ Add_line }}
 
 - name: Install Puppet repo ....
   get_url: url=https://apt.puppetlabs.com/puppetlabs-release-trusty.deb dest=/tmp
