@@ -1,17 +1,12 @@
 ---
 
-<<<<<<< HEAD
-- hosts: Web-hosts
+- hosts: puppet-node
   vars:
     - hostname: drupal
-=======
-- hosts: Puppet-node
-
->>>>>>> 0884ad38209515ec7764c4f3dc05145856971081
   roles:
    - { role: "opstree.puppetsync" }
 
-- hosts: Web-hosts2
+- hosts: puppet-node2
   vars:
     - hostname: drupal23
   roles:

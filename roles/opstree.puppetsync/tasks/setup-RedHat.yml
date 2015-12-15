@@ -4,14 +4,7 @@
 - name: Configure hostname ....
   command: hostname {{ hostname }}
 
-<<<<<<< HEAD
-- name:  hostname configured....
-  command: /etc/init.d/network restart
-
 - lineinfile: dest=/etc/hosts line={{ Add_line }}
-=======
-- lineinfile: dest=/etc/hosts line="52.24.81.83 foreman.bigparser.com" 
->>>>>>> 0884ad38209515ec7764c4f3dc05145856971081
 
 - name: Install Puppet repo ....
   get_url: url=https://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm dest=/tmp
