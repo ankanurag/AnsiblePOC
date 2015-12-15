@@ -1,6 +1,6 @@
 ---
 
-- hosts: Web-hosts
+- hosts: Puppet-node
 
   roles:
    - { role: "opstree.puppetsync" }
