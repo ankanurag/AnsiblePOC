@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: sandeep
+  description: Install aws_cli and creates credential file
+  company: Opstree
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - vivid
+  galaxy_tags:
+    - aws_cli
