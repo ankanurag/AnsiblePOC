@@ -27,7 +27,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts:aws_host 
       roles:
-         - { role: sandy724.awscli }
+         - { role: opstree.awscli }
 
 License
 -------
@@ -36,7 +36,7 @@ BSD
 
 Author Information
 ------------------
-pstree.com
+opstree.com
 
 blog.opstree.com
 
